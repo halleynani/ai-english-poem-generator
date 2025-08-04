@@ -6,22 +6,34 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
 </head>
-<body>
-    <header>
-    <h1>AI English Poem Generator</h1>
-</header>
 
+<body>
+
+    <div class="container">
+
+    <header>
+
+    <h1>AI English Poem Generator</h1>
+
+    </header>
 <main>
 
 <form>
-<input type="text" placeholder="Enter Poem Topic..." 
+<input 
+type="text" 
+placeholder="Enter Poem Topic..." 
 autofocus
 required
 autocomplete="off"
+class="instructions"
 />
-<input type="submit" />
+<input 
+type="submit"
+class="submit-button" 
+/>
 </form>
-<div>
+
+<div class="poem">
     <br />
     Open here I flung the shutter, when, with many a flirt and flutter,
     <br />
@@ -36,6 +48,8 @@ In there stepped a stately raven of the saintly days of yore.
     <a href="https://github.com/halleynani/world-clock" target="_blank"> on GitHub</a> and is hosted
     <a href="https://flag-fun-facts.netlify.app/" target="_blank">on Netify.</a>  
     </footer>
+</div>
     <script src="src/index.js"></script>
+
 </body>
 </html>
